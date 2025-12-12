@@ -79,6 +79,7 @@ Open your browser and navigate to: `http://localhost:8080`
 The application uses the **Google Gemini Free Tier**. If you encounter speed issues or quota errors, the app includes an **automatic retry mechanism**.
 - **Model Used**: `gemini-2.5-flash` (Optimized for performance and availability).
 - **Fallback**: If you have access issues, you can run `python list_models.py` to see available models and update `app.py` accordingly.
+  
 
 ## 🤝 Contributing
 Feel free to open issues or submit pull requests.
